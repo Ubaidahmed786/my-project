@@ -1,0 +1,180 @@
+.myslides{
+    display: none;
+}
+li{
+background-color: rgb(253, 176, 33);
+height: 27px;
+border: 0;
+border-radius: 5px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.section{
+    display: none;
+}
+.nav-item {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+.nav-item:hover {
+    background-color: darkgreen;
+}
+.mymenu{
+    cursor: pointer;
+   text-align: center;
+   color: rgb(0, 0, 0);
+   background-color: rgb(231, 213, 185);
+  
+}
+.mymenu:hover{
+    background-color: rgb(0, 0, 0);
+}
+
+.pc1:hover{
+background-color:rgb(231, 213, 185);
+cursor: pointer;
+
+}
+.table{
+    border-color: black;
+    border-radius: 5px;
+    border-width: 3px;
+}
+.fb{
+    letter-spacing: 1px;
+   text-align: center;
+   color: rgb(6, 6, 65);
+}
+#why{
+  background-color: white;  
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(0, 0, 0);
+  
+}
+.btn{
+    background-color: #056b05; /* Green background */
+    color: rgb(255, 255, 255); /* White text */
+    border: none; /* No border */
+    padding: 15px 32px; /* Padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* No underline */
+    display: inline-block; /* Make the button inline-block */
+    font-size: 16px; /* Font size */
+    margin: 4px 2px; /* Margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+}
+
+.btn:hover{
+    background-color: #45a049; /* Darker green on hover */
+}
+input {
+    width: 50%; /* Full width */
+    padding: 12px; /* Padding inside the input box */
+    margin: 8px 0; /* Margin outside the input box */
+    box-sizing: border-box; /* Ensures padding and border are included in the element's total width and height */
+    border: 2px solid #756969; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+
+input:hover {
+    border-color: #4edf53; /* Green border on focus */
+    outline: none; /* Removes the default outline on focus */
+}
+.input{
+    padding: 12px;
+    width: 50%; /* Full width */
+    box-sizing: border-box;/* Padding inside the input box */
+    margin: 8px 0; /* Margin outside the input box */
+    /* Ensures padding and border are included in the element's total width and height */
+    border: 2px solid #8d8989; /* Light gray border */
+    border-radius: 4px; /* Rounded corners */
+    font-size: 16px; /* Font size */
+}
+.input:hover {
+    border-color: #47da4c; /* Green border on focus */
+    outline: none; /* Removes the default outline on focus */
+}
+
+section#about-us {
+    padding: 2rem;
+    background-color: white;
+    margin: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section#about-us h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+section#about-us p {
+    line-height: 1.6;
+    margin: 1rem 0;
+    color: #333;}
+
+    #cart {
+        margin-top: 20px;
+    }
+
+    #cart-items {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    #total-price {
+        font-weight: bold;
+        margin-top: 10px;
+    }
+.item{
+   
+    border-collapse: collapse;
+    width: 50%;
+}
+.item, th, td{
+   
+    padding: 10px;
+    text-align: left;
+    border:solid black;
+}
+.container {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+.contact-info {
+    margin-top: 20px;
+}
+.contact-info p {
+    margin-bottom: 10px;
+}
+.contact-info p:last-child {
+    margin-bottom: 0;
+}
+.contact-info p span {
+    font-weight: bold;
+}
+.footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+
+    bottom: 0;
+    width: 100%;
+}
+.footer a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.footer a:hover {
+    text-decoration: underline;
+}
